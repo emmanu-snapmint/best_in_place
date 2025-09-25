@@ -14,7 +14,7 @@ module BestInPlace
       # All ActionView initialization logic must be safely inside this block.
       
       # Check arity for compatibility with Rails 6+ (requires 3 args) vs older Rails (requires 0 or 1)
-      if ActionView::Base.method(:new).arity == 3
+      if true
         # Rails 6+ requires: lookup_context, assigns, controller
         
         # 1. LookupContext
